@@ -1,0 +1,15 @@
+para acessar nova branch:
+git check out -b “teste”
+
+para enviar o commit:
+git commit -a -m “adição de parágrafo”
+git status
+git push --set-upstream origin teste
+
+para retornar para a branch main:
+git checkout main
+git branch
+
+UNINDO CÓDIGO ATUAL COM BRANCH TESTE:
+git merge teste
+git push
